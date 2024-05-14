@@ -22,7 +22,7 @@ function removecontact() {
 
 function contactlist() {
     let list = "<ul>";
-    contacts.forEach(contact => {output += "<li>" + contact + "</li>";});
+    contacts.forEach(contact => {list += "<li>" + contact + "</li>";});
     list += "</ul>";
     document.getElementById('output').innerHTML = list;
 }
